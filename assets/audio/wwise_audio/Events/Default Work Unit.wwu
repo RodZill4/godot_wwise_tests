@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3AA19833-7B28-4566-8FA5-0AB6C70EDDE3}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3AA19833-7B28-4566-8FA5-0AB6C70EDDE3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="FootStep" ID="{C4190F17-FEB4-4B88-9B28-AC907B31C179}">
+					<PropertyList>
+						<Property Name="InstanceLimit" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{DAC1A273-3F77-4D1F-BE30-11FD9577DA27}" ShortID="80773052">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootStep" ID="{7491CA51-FE3F-4A77-ACF9-E6FFE1A8EEDC}" WorkUnitID="{0EA22F78-8AD9-4774-A98E-F5FC3CE1D70D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

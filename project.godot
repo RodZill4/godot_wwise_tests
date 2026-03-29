@@ -1,0 +1,36 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="wwise_test"
+config/features=PackedStringArray("4.6", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+WwiseRuntimeManager="*uid://b5r1gk8mw3xjh"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/wwise_helper/plugin.cfg")
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+
+[wwise]
+
+common_user_settings/root_output_path="res://assets/audio/GeneratedSoundBanks"
+project_settings/windows_platform_info="res://Wwise/resources/Windows.tres"

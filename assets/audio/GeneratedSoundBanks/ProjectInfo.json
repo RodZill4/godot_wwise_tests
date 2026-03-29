@@ -1,0 +1,29 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "wwise_audio",
+   "GUID": "{3FF82250-1F5D-403E-BFB3-34848050D08A}",
+   "Generator": "2025.1.4.9062"
+  },
+  "CacheRoot": "../wwise_audio/.cache",
+  "Platforms": [
+   {
+    "Name": "Windows",
+    "GUID": "{2431456E-9F20-46A1-9C3E-BDA5FB371485}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{14B5747D-023E-453E-88C0-93F6174F73A1}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{EB00C11A-E44C-16AA-0122-2585EA9B29AD}"
+ }
+}

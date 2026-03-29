@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "393239870",
+    "Type": "User",
+    "GUID": "{73B94D65-82D4-4BA6-8372-43463C0A5941}",
+    "Language": "SFX",
+    "Hash": "{8508C53D-90B5-B27A-1FC1-9DD593AA4004}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk",
+    "Media": [
+     {
+      "Id": "65937113",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footstep05.wav",
+      "CachePath": "0A/{0A63F913-10B7-EA0A-DFBC-CD649F46A8D7}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1866025847",
+      "Name": "FootStep",
+      "ObjectPath": "\\Events\\Default Work Unit\\FootStep",
+      "GUID": "{C4190F17-FEB4-4B88-9B28-AC907B31C179}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.27577084",
+      "DurationMax": "0.27577084",
+      "MediaRefs": [
+       {
+        "Id": "65937113"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C65DC5D7-EA92-01A7-F8B6-98A893980665}"
+ }
+}

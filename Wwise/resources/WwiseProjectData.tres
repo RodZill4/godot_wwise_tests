@@ -1,0 +1,44 @@
+[gd_resource type="WwiseProjectData" format=3 uid="uid://6tod8mlwbv0i"]
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_dn5s6"]
+path = "\\SoundBanks\\Default Work Unit\\SFX"
+type = 7
+name = "SFX"
+guid = "{73B94D65-82D4-4BA6-8372-43463C0A5941}"
+id = 393239870
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_abdhx"]
+children = [SubResource("WwiseTreeObject_dn5s6")]
+name = "Default Work Unit"
+id = 125608783
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_wbiwk"]
+path = "\\Busses\\Default Work Unit\\Main Audio Bus"
+type = 2
+name = "Main Audio Bus"
+guid = "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+id = 2246998526
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_n4jq4"]
+children = [SubResource("WwiseTreeObject_wbiwk")]
+name = "Default Work Unit"
+id = 125608783
+
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_2b7v5"]
+max_duration = 0.27577084
+min_duration = 0.27577084
+path = "\\Events\\Default Work Unit\\FootStep"
+type = 3
+name = "FootStep"
+guid = "{C4190F17-FEB4-4B88-9B28-AC907B31C179}"
+id = 1866025847
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_yty4k"]
+children = [SubResource("WwiseTreeObjectEvent_2b7v5")]
+name = "Default Work Unit"
+id = 125608783
+
+[resource]
+bus_root = [SubResource("WwiseTreeObject_n4jq4")]
+bank_root = [SubResource("WwiseTreeObject_abdhx")]
+event_root = [SubResource("WwiseTreeObject_yty4k")]

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1866025847	FootStep			\Default Work Unit\FootStep	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	65937113	FootStep	.cache\0A\{0A63F913-10B7-EA0A-DFBC-CD649F46A8D7}.wem		\Containers\Default Work Unit\FootStep		53044
+

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://g0057j7wvmyi"
+path="res://.godot/imported/City Center.wav-a79d6022067dbd7253e2c3330e84217b.sample"
+
+[deps]
+
+source_file="res://assets/audio/wwise_audio/Originals/Plugins/iZotope Hybrid Reverb/City Center.wav"
+dest_files=["res://.godot/imported/City Center.wav-a79d6022067dbd7253e2c3330e84217b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
