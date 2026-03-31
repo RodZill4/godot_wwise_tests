@@ -25,6 +25,7 @@ name = "Default Work Unit"
 id = 125608783
 
 [sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_2b7v5"]
+max_attenuation = 100.0
 max_duration = 0.27577084
 min_duration = 0.27577084
 path = "\\Events\\Default Work Unit\\FootStep"

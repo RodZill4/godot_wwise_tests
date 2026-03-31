@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{73B94D65-82D4-4BA6-8372-43463C0A5941}",
     "Language": "SFX",
-    "Hash": "{8508C53D-90B5-B27A-1FC1-9DD593AA4004}",
+    "Hash": "{9BF21F49-62D0-E3F2-181B-21A251B1CDFC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -30,6 +30,7 @@
       "Name": "FootStep",
       "ObjectPath": "\\Events\\Default Work Unit\\FootStep",
       "GUID": "{C4190F17-FEB4-4B88-9B28-AC907B31C179}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.27577084",
       "DurationMax": "0.27577084",
@@ -42,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{C65DC5D7-EA92-01A7-F8B6-98A893980665}"
+  "FileHash": "{2C348686-1000-BFFD-EA82-B319A80E18EF}"
  }
 }

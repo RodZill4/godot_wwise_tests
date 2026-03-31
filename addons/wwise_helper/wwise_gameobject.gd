@@ -9,3 +9,6 @@ extends Node
 		Wwise.register_game_obj(get_parent(), "x")
 		if Wwise.post_event(event, get_parent()) == 0:
 			print("Cannot find Wwise event ", event)
+
+func _ready():
+	add_to_group("WwiseGameObjects")
